@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Proxmox Hypervisor Decision | Projects</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">
+        <span class="dot"></span>
+        <span>Dakota Johnston</span>
+      </a>
+      <nav class="links">
+        <a href="../summary.html">Summary</a>
+        <a href="../skills.html">Skills</a>
+        <a href="../experience.html">Experience</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../certifications.html">Certs</a>
+        <a href="../education.html">Education</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+
+      <div class="breadcrumbs">
+        <a href="../projects.html">Projects</a>
+        <span>›</span>
+        <span>Proxmox Hypervisor Decision</span>
+      </div>
+
+      <h1>Choosing Proxmox as My Hypervisor</h1>
+      <p class="muted">
+        Foundation project establishing a scalable, enterprise-style virtualization
+        platform for all future cybersecurity and infrastructure labs.
+      </p>
+
+      <hr class="hr">
+
+      <h2>Project Overview</h2>
+      <p>
+        Before building individual security labs, I needed a stable, flexible
+        virtualization platform that could support multiple operating systems,
+        networking scenarios, and long-term experimentation.
+      </p>
+      <p>
+        This project documents my decision to deploy <strong>Proxmox VE</strong>
+        as my primary hypervisor and explains how it supports my future
+        cybersecurity, vulnerability management, and infrastructure projects.
+      </p>
+
+      <h2>Objectives</h2>
+      <ul class="list">
+        <li>Create a centralized virtualization platform for all lab environments</li>
+        <li>Support both virtual machines and containers</li>
+        <li>Enable realistic enterprise-style networking and segmentation</li>
+        <li>Provide snapshotting and rollback for safe testing and experimentation</li>
+        <li>Minimize licensing costs while maintaining enterprise-like functionality</li>
+      </ul>
+
+      <h2>Why Proxmox</h2>
+      <ul class="list">
+        <li>Open-source hypervisor with enterprise-grade features</li>
+        <li>Native support for KVM virtual machines and LXC containers</li>
+        <li>Web-based management interface suitable for multi-node scaling</li>
+        <li>Built-in snapshot, backup, and restore functionality</li>
+        <li>Strong community documentation and real-world enterprise adoption</li>
+      </ul>
+
+      <h2>Comparison Considered</h2>
+      <p class="muted">
+        Other hypervisors were evaluated but did not meet all long-term lab requirements.
+      </p>
+      <ul class="list">
+        <li><strong>VMware ESXi</strong>: Feature-rich but limited by licensing constraints for home labs</li>
+        <li><strong>Hyper-V</strong>: Tightly coupled to Windows and less flexible for mixed environments</li>
+        <li><strong>VirtualBox</strong>: Suitable for single systems but not scalable for multi-project labs</li>
+      </ul>
+
+      <h2>Implementation</h2>
+      <ul class="list">
+        <li>Installed Proxmox VE directly on bare-metal hardware</li>
+        <li>Configured storage for VM images and ISO management</li>
+        <li>Created isolated virtual networks for future security labs</li>
+        <li>Validated VM creation, snapshots, and rollback workflows</li>
+      </ul>
+
+      <h2>How This Supports Future Projects</h2>
+      <ul class="list">
+        <li>Central host for Windows and Linux lab systems</li>
+        <li>Safe environment for vulnerability scanning and patch testing</li>
+        <li>Ability to simulate enterprise networks and segmented environments</li>
+        <li>Rapid rebuild of lab systems using snapshots and templates</li>
+      </ul>
+
+      <h2>Key Takeaways</h2>
+      <ul class="list">
+        <li>Planning infrastructure first reduces rework in later projects</li>
+        <li>Hypervisor choice directly impacts scalability and realism</li>
+        <li>Proxmox provides enterprise-style capabilities without licensing barriers</li>
+      </ul>
+
+      <h2>Next Steps</h2>
+      <ul class="list">
+        <li>Deploy Windows Server and Linux VMs for Active Directory labs</li>
+        <li>Build a vulnerability scanning environment using ACAS/Nessus equivalents</li>
+        <li>Integrate logging and monitoring for future SIEM projects</li>
+      </ul>
+
+    </section>
+  </main>
+</body>
+</html>

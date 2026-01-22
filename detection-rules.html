@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home SOC Lab | Projects</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="nav">
+        <div class="nav-inner">
+          <a class="brand" href="../index.html">
+            <span class="dot"></span>
+            <span>Dakota Johnston</span>
+          </a>
+          <nav class="links">
+            <a href="../summary.html">Summary</a>
+            <a href="../skills.html">Skills</a>
+            <a href="../experience.html">Experience</a>
+            <a href="../projects.html">Projects</a>
+            <a href="../certifications.html">Certs</a>
+            <a href="../education.html">Education</a>
+            <a href="../contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="breadcrumbs">
+        <a href="../projects.html">Projects</a>
+        <span>›</span>
+        <span>Detection Rules</span>
+      </div>
+
+      <h1>Home SOC Lab</h1>
+      <p class="muted">
+        Centralized logging and alert triage practice environment to simulate SOC workflows.
+      </p>
+
+      <hr class="hr">
+
+      <h2>Objective</h2>
+      <ul class="list">
+        <li>Build repeatable SOC workflows: ingestion → triage → investigation → documentation.</li>
+        <li>Practice detections with realistic telemetry (Windows events, Sysmon, network logs).</li>
+      </ul>
+
+      <h2>Tools / Stack</h2>
+      <ul class="list">
+        <li>Windows endpoints + Sysmon</li>
+        <li>SIEM (Splunk / Sentinel / Elastic — pick the one you actually use)</li>
+        <li>Optional: Wazuh/OSSEC, Suricata, Zeek</li>
+      </ul>
+
+      <h2>What I Built</h2>
+      <ul class="list">
+        <li>Log ingestion pipeline with consistent field normalization.</li>
+        <li>Dashboards for auth anomalies and process execution patterns.</li>
+        <li>Runbooks for common alert types (PowerShell, credential access, persistence).</li>
+      </ul>
+
+      <h2>Outcomes</h2>
+      <ul class="list">
+        <li>Improved investigation speed by documenting repeatable queries + decision points.</li>
+        <li>Created baseline queries and tuning notes to reduce false positives.</li>
+      </ul>
+
+      <h2>Artifacts</h2>
+      <ul class="list">
+        <li>GitHub Repo: <a href="https://github.com/YOUR-HANDLE/YOUR-REPO" target="_blank" rel="noreferrer">link</a></li>
+        <li>Write-up: <a href="https://YOUR-DOMAIN" target="_blank" rel="noreferrer">link</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
